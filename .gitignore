@@ -1,2 +1,5 @@
 # ignores the node modules folder
 node_modules/
+
+#ignores idead markup file
+ideas.md
