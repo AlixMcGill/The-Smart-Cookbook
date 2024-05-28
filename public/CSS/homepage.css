@@ -7,7 +7,25 @@
 }
 
 .hero-img {
-    width: 100%;
+    width: 110%;
+    animation-name: width-movement;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes width-movement {
+    0% {
+        width: 110%;
+        margin-top: -2rem;
+    }
+    50% {
+        width: 105%;
+        margin-top: -1rem;
+    }
+    100% {
+        width: 110%;
+        margin-top: -2rem;
+    }
 }
 
 .hero-section-wrapper {
@@ -16,7 +34,7 @@
     margin-left: 15%;
     font-family: "Cormorant Garamond", serif;
     color: white;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
 }
 
 .hero-section-wrapper h2 {
