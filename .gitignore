@@ -3,3 +3,6 @@ node_modules/
 
 #ignores idead markup file
 ideas.md
+
+#ignores img folder
+public/img/

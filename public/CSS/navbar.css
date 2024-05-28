@@ -1,0 +1,45 @@
+.nav-bar-container {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0%;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.page-title {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2rem;
+    margin-left: 8%;
+}
+
+.page-nav-elements {
+    display: flex;
+    align-items: center;
+    max-height: fit-content;
+    gap: 2rem;
+    margin-right: 8%;
+}
+
+.nav-item {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    border: .5px solid rgb(227, 227, 227);
+    padding: .6rem;
+    transition-duration: 1s;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+    background-color: rgba(240, 248, 255, 0.6);
+    border-radius: .4rem;
+    transition-duration: 1s;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 1)
+}
