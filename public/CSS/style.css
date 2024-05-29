@@ -13,6 +13,20 @@ a {
     all: unset;
 }
 
+button {
+    all: unset;
+}
+
+button:focus {
+    outline: revert;
+}
+
+input[type="submit"] {
+    all: unset;
+}
+
+/* Global styles */
+
 body {
-    background-color: rgb(35, 32, 42);
+    background-color: rgb(171, 171, 171);
 }
