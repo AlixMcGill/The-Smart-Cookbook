@@ -10,7 +10,14 @@
     width: 110%;
     animation-name: width-movement;
     animation-duration: 20s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
+    display: none;
+    transition-duration: 1s;
+}
+
+.activeSlide {
+    display: block;
 }
 
 @keyframes width-movement {
