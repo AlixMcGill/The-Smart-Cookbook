@@ -8,3 +8,6 @@ CREATE TABLE user_account_data
     num_of_ratings INT,
     posts INT
 );
+
+INSERT INTO user_account_data (first_name, last_name, password)
+VALUES (first, user, '12345');
