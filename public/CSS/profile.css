@@ -19,10 +19,14 @@
     width: 10%;
     background-color: rgb(134, 134, 134);
     margin: 0%;
+    margin-top: 10vh;
 }
 
 .profile-info {
     background-color: rgb(199, 199, 199);
+    margin-top: 10vh;
+    width: 100%;
+    height: 90vh;
 }
 
 .profile-icon {
@@ -42,6 +46,7 @@
 .user-button:hover {
     background-color: rgb(200, 200, 200);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    border-radius: .5rem;
     cursor: pointer;
 }
 
