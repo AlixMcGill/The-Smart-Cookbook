@@ -29,13 +29,18 @@
             </aside>
             <section class="profile-info">
                 <div class="header-section">
-                    <h2 class="username">Username</h2>
+                    <h2 class="username"><span id="username-span">Username</span></h2>
                     <p>Bio</p>
                 </div>
                 <div class="content-section">
                     <!-- About User -->
-                    <div id="user-info" hidden>
-                        <h3>About: <span id="Username-span">Username</span></h3>
+                    <div id="user-info">
+                        <h3>Account Overview</h3>
+                        <p>Username: <span id="username-span">Username</span></p>
+                        <p>First Name:<span id="firstname-span">first name</span></p>
+                        <p>Last Name:<span id="lastname-span">last name</span></p>
+                        <p>Number Of Posts:<span id="firstname-span">0</span></p>
+                        <p>Number Of Favorites:<span id="firstname-span">0</span></p>
                     </div>
 
                     <!-- Edit User Bio -->
@@ -44,10 +49,10 @@
                     </div>
 
                     <!-- View / Edit User Pantry -->
-                    <div id="user-pantry">
+                    <div id="user-pantry" hidden>
                         <h3>My Pantry</h3>
 
-                        <form action="get">
+                        <form action="">
                             <input type="search" value="Ingredient Search">
 
                             <label for="ingredient-type">Select Ingredient Catagory</label>

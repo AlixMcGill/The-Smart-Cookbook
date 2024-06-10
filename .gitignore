@@ -6,3 +6,6 @@ ideas.md
 
 #ignores img folder
 public/img/
+
+#ignores enviorment variables
+.env
